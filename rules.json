@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "priority": 1,
+      "action": {
+        "type": "block"
+      },
+      "condition": {
+        "urlFilter": "https://www.uol.com.br/",
+        "resourceTypes": [
+          "main_frame"
+        ]
+      }
+    },
+    {
+        "id": 2,
+        "priority": 2,
+        "action": {
+          "type": "block"
+        },
+        "condition": {
+          "urlFilter": "https://www.whatthecommit.com/",
+          "resourceTypes": [
+            "main_frame"
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "priority": 1,
+        "action": { "type": "allow" },
+        "condition": { "urlFilter": "https://www.pedraoautomoveis.com.br", "resourceTypes": ["main_frame"] }
+      },
+      {
+        "id": 4,
+        "priority": 1,
+        "action": { "type": "allow" },
+        "condition": { "urlFilter": "https://www.pedraoautomoveis.com.br", "resourceTypes": ["main_frame"] }
+      }
+  ]
