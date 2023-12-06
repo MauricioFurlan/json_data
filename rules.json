@@ -30,11 +30,5 @@
         "priority": 1,
         "action": { "type": "allow" },
         "condition": { "urlFilter": "https://www.pedraoautomoveis.com.br", "resourceTypes": ["main_frame"] }
-      },
-      {
-        "id": 4,
-        "priority": 1,
-        "action": { "type": "allow" },
-        "condition": { "urlFilter": "https://www.pedraoautomoveis.com.br", "resourceTypes": ["main_frame"] }
       }
   ]
